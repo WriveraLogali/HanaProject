@@ -1,0 +1,23 @@
+/home/user/projects/HanaProject/
+
+db/src/data/ -> For tables (.hdbtable).
+db/src/models/ -> For Calculation Views (.hdbcalculationview).
+db/src/logic/ -> For Procedures and Functions.
+db/src/security/ -> For Analytic Privileges.
+db/cfg -> For roles and privileges.
+
+Tables .hdbtable T_ o TBL_ T_SALES_ORDERS.hdbtable
+
+Calculation Views .hdbcalculationview CV_ o CVC_ CV_SALES_ANALYSIS.hdbcalculationview
+
+Functions .hdbfunction F_ o FN_ FN_GET_STOCK.hdbfunction
+
+Procedures o Stored procedure .hdbprocedure P_ o SP_ P_UPDATE_PRICES.hdbprocedure
+
+Analytic Privileges .hdbanalyticprivilege AP_ AP_SALES_REGION.hdbanalyticprivilege
+
+Synonyms .hdbsynonym S_ o SYN_ S_ERP_DATA.hdbsynonym
+
+
+
+
