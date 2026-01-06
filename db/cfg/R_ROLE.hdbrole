@@ -1,0 +1,16 @@
+{
+  "role": {
+    "name": "R_ROLE",
+    "object_privileges": [
+      {
+        "name": "HDINAMESPACE::T_TABLE1",
+        "type": "TABLE",
+        "privileges": [
+          "SELECT",
+          "DELETE",
+          "UPDATE"
+        ]
+      }
+    ]
+  }
+}

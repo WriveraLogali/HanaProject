@@ -1,0 +1,14 @@
+{
+	"CC_LOGALI": {
+		"application_user": {
+					"roles": [
+						"LGROLE"
+					]
+		},
+		"object_owner": {
+					"roles": [
+						"LGROLE"
+					]
+		}
+	}
+}

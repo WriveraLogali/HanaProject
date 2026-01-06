@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="CV_DIMENSION" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" hierarchyGeneration="SQL" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true" application="BAS" mdsCubeConversionExecution="AT_LOADING_TIME">
+<descriptions defaultDescription="CV_DIMENSION"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="com.sap::T_HANA_USERS">
+    <resourceUri>com.sap::T_HANA_USERS</resourceUri>
+  </DataSource>
+</dataSources>
+<snapshotProcedures/>
+<calculationViews/>
+
+<logicalModel id="com.sap::T_HANA_USERS">
+  <attributes>
+    <attribute id="USER_NAME" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USER_NAME"/>
+      <keyMapping columnObjectName="T_HANA_USERS" columnName="USER_NAME"/>
+    </attribute>
+    <attribute id="USER_MODE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USER_MODE"/>
+      <keyMapping columnObjectName="T_HANA_USERS" columnName="USER_MODE"/>
+    </attribute>
+    <attribute id="EXTERNAL_IDENTITY" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTERNAL_IDENTITY"/>
+      <keyMapping columnObjectName="T_HANA_USERS" columnName="EXTERNAL_IDENTITY"/>
+    </attribute>
+    <attribute id="USER_ID" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USER_ID"/>
+      <keyMapping columnObjectName="T_HANA_USERS" columnName="USER_ID"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+    
+  </shapes>
+</layout>
+</Calculation:scenario>

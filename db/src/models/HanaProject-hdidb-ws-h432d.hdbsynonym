@@ -1,0 +1,8 @@
+{
+  "com.sap::T_HANA_USERS": {
+    "target": {
+      "object": "T_HANA_USERS",
+      "schema": "LOGALI"
+    }
+  }
+}
